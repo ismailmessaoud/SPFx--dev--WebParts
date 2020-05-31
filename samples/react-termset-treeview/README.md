@@ -1,6 +1,6 @@
 ## TermSet TreeView WebPart Overview
 
-The TermSetTreeView WebPaer renders a SharePoint TermSet into a tree structure.
+The TermSetTreeView WebPart renders a SharePoint TermSet into a tree structure.
 
 ![](https://github.com/ismailmessaoud/SPFx--dev--WebParts/blob/master/assets/TermSetTreeView.gif)
 
