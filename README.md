@@ -20,7 +20,7 @@ Please use following logic on submitting your questions or issues to right locat
 
 Overview |  Web Part |  Description
 ------------ | ----------- | -----------
-![TermSet TreeView](./assets/TermSetTreeView.PNG) | [**TermSet TreeView**](https://github.com/ismailmessaoud/SPFx--dev--WebParts/wiki/TermSet-TreeView) |  This Web Part returns a set of SharePoint terms in a tree structure. You can select the TermSet in the properties of the Web Part and you will see its terms in a TreeView structure.
+![TermSet TreeView](./assets/TermSetTreeView.PNG) | [**TermSet TreeView**](https://github.com/ismailmessaoud/SPFx--dev--WebParts/wiki/TermSet-TreeView) |  This Web Part returns a SharePoint TermSet in a tree structure. You can select the TermSet in the properties of the Web Part and you will see its terms in a TreeView structure.
 
 
 
