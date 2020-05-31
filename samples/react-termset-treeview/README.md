@@ -1,26 +1,32 @@
-## react-termset-treeview
+## TermSet TreeView WebPart Overview
 
-This is where you include your WebPart documentation.
+The TermSetTreeView WebPaer renders a SharePoint TermSet into a tree structure.
 
-### Building the code
+![](https://github.com/ismailmessaoud/SPFx--dev--WebParts/blob/master/assets/TermSetTreeView.gif)
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
+## Properties
+
+You can configure the following Web Part settings:
+* **TermSet Field :** The termSet to render into the treeview structure.
+* **Default Expanded? :** Default expand / collapse behavior. By default this is set to false.
+* **Selection Mode :** Specify the item selection mode. By default this is set to Single.
+* **Select Children If Parent Selected? :** Specify if the childrens should be selected when parent is selected. By default this is set to false.
+* **Show Checkboxes :** Specify if the checkboxes should be displayed for selection.
+* **Tree Item Actions Display Mode? :** Display mode of the tree item actions.
+
+## Screenshots
+
+![](https://github.com/ismailmessaoud/SPFx--dev--WebParts/blob/master/assets/TermSetTreeView.PNG)
+
+
+## Minimal Path to Awesome
+
+* Clone this repository
+* In the command line run:
+```shell
+npm install
+gulp serve
 ```
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+## Disclaimer
+**THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
