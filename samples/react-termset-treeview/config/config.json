@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "term-set-tree-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/termSetTreeView/TermSetTreeViewWebPart.js",
+          "manifest": "./src/webparts/termSetTreeView/TermSetTreeViewWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sp-client-custom-fields": "node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js"
+  },
+  "localizedResources": {
+    "TermSetTreeViewWebPartStrings": "lib/webparts/termSetTreeView/loc/{locale}.js",
+    "sp-client-custom-fields/strings": "node_modules/sp-client-custom-fields/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
