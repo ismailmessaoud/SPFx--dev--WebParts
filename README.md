@@ -16,7 +16,7 @@ Please use following logic on submitting your questions or issues to right locat
 * You have any question, - use can [read the FAQ](https://github.com/ismailmessaoud/SPFx--dev--WebParts/wiki/FAQ).
 * You have issue on specific web part or sample - use [issue list in this repository](https://github.com/ismailmessaoud/SPFx--dev--WebParts/issues).
 
-## Video & Audio
+## WebParts
 
 Overview |  Web Part |  Description
 ------------ | ----------- | -----------
